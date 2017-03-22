@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ny Times App</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Logo</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="card large">
+                <div class="row">
+                    <div class="input-field col s5 push-s1">
+                        <i class="material-icons prefix">search</i>
+                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <label for="first_name">Search Terms:</label>
+                    </div>
+                    <div class="input-field col s5 push-s1">
+                        <i class="material-icons prefix">list</i>
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Number of Records to Retrieve:</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--<div class="input-field col s5 push-s1">-->
+                        <!--<i class="material-icons prefix">perm_contact_calender</i>-->
+                        <!--<input placeholder="Placeholder" id="start_year" type="text" class="validate">-->
+                        <!--<label for="first_name">Start Year (Optional):</label>-->
+                    <!--</div>-->
+                    <!--<div class="input-field col s5 push-s1">-->
+                        <!--<i class="material-icons prefix">perm_contact_calender</i>-->
+                        <!--<input placeholder="Placeholder" id="end_year" type="text" class="validate">-->
+                        <!--<label for="end_year">End Year (Optional):</label>-->
+                    <!--</div>-->
+                    <div class="input-field col s5 push-s1">
+                        <i class="material-icons prefix">perm_contact_calendar</i>
+                        <input id="start_year" type="date" class="datepicker">
+                        <label for="start_year">Start Year (Optional):</label>
+                    </div>
+                    <div class="input-field col s5 push-s1">
+                        <i class="material-icons prefix">perm_contact_calendar</i>
+                        <input id="end_year" type="date" class="datepicker">
+                        <label for="end_year">End Year (Optional):</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 offset-s1">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card large">
+                        <ul class="collection with-header">
+                            <li class="collection-header"><h4>Results </h4></li>
+                            <li class="collection-item"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                            <li class="collection-item"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                            <li class="collection-item"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                            <li class="collection-item"><div>Alvin<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="assets/js/materialize.min.js"></script>
+<script src="assets/js/index.js"> </script>
+</body>
+</html>
+
+
